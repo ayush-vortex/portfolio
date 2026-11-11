@@ -1,0 +1,27 @@
+node_modules
+resend-key.txt
+dist
+.wrangler
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+.DS_Store
+*.log
+
+# Local video/ffmpeg artifacts (unrelated to the portfolio)
+*.dll
+*.mp4
+*.zip
+*.py
+=*
+tmpmodels.json
+_assets/
+_embed_player.py
+build_video.py
+make_captions.py
+test_render.py
+player.html
+ffmpeg.exe
+ffprobe.exe
+ffmpeg-build/
+ffmpeg-build.zip
